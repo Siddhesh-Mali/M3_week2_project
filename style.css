@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+;
+*{
+    font-family: "Poppins", sans-serif;
+}
+body { 
+    background-color: rgba(38, 38, 38, 1);
+    color: rgba(196, 196, 196, 1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.brandName{
+    color: white;
+font-size: 48px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+nav>input{
+    all: unset;
+    width: 35%;
+    height: 53px;
+    top: 33px;
+    left: 319px;
+    border-radius: 15px;
+    /* border: 1px solid lightgrey; */
+    background-color: rgb(48, 47, 47);
+    padding: 0px 15px;
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.nav_btn>button{
+    all: unset;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+
+
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.hero{
+    background-color: rgb(48, 47, 47);
+    margin: 2% 7%;
+    width: auto;
+    height: 65vh;
+    border-radius: 55px;
+    display: flex;
+}
+.div_left{
+    flex: 1;
+}
+.div_right{
+    flex: 1;
+}
+.heroHeading{
+    
+    padding: 40px 0 0 40px;
+    color: white;
+    font-family: "Poppins";
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.div_left>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.div_left>ul>li>div{
+    display: inline-block;
+    
+    font-family: "Poppins";
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;
+}
+
+.div_right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    padding-top: 30px;
+    flex-direction: row;
+
+}
+.div_right>.container{
+       flex-direction: column;
+    padding: 40px;
+}
+.knowMore{
+   margin-top: 30px; 
+}
+
+.knowMore>button{
+    
+   all: unset;
+   background-color: rgba(254, 203, 3, 1);
+   color: black;
+   width: 260px;
+   height: 107px;
+   border-radius: 50px;
+
+font-size: 35px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: center;
+
+   
+  }
+
+.categories{
+    margin: 2% 7%;
+    display: flex;
+    flex-direction: column;
+}
+.categories>h3{
+font-size: 45px;
+font-weight: 600;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.cat_col1,.cat_col2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.card{
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 350px;
+    padding: 30px;
+    padding-right: 0px;
+    background-color:rgb(48, 47, 47) ;
+    border-radius: 35px;
+}
+.card-title{
+    margin: 10px auto 10px 0px;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+}
+.card>.btn_div{
+    
+}
+.card>.btn_div>.knowMore{
+    
+    transform: scale(0.5);
+  
+}
+
+.footer{
+    margin: 2% 3%;
+    background-color:rgb(48, 47, 47) ;
+    height: 285px;
+    border-radius: 55px;
+    padding: 40px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 10px; */
+}
+.col1{
+    flex: 3;
+    padding: 0 120px 0 30px;
+}
+ .col2, .col3{
+    flex: 1;
+    /* line-height: 1.5; */
+}
+.col2, .col3 >ul> li{
+
+    padding: 4px;
+}
+.col2 >ul> li{
+
+    padding: 4px;
+}
